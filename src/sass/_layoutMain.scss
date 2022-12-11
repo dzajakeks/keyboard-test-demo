@@ -1,0 +1,118 @@
+.layout-main-key {
+    width: 47px;
+    height: 47px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: .2em;
+    background-color: rgb(58, 58, 58);
+    border: 1px solid white;
+    color: white;
+}
+.layout-main-key p {
+    display: grid;
+    place-content: center;
+    height: 100%;
+}
+
+.layout__container {
+    padding: 0 .5em;
+}
+
+.backspace {
+    width: 94px;
+}
+.empty {
+    border: none;
+}
+.half {
+    width: 23.5px;
+    border: none;
+}
+.esc {
+    margin-right: 50px;
+}
+.mr {
+    margin-right: 30px;
+}
+.margin-right {
+    margin-right: 12px;
+}
+.straight {
+    width: 71px;
+}
+.tab {
+    width: 70px;
+}
+.plus {
+    height: 102px;
+}
+.relative {
+    position: relative;
+    top: -54px;
+}
+.hidden-line {
+    opacity: none;
+    background-color: transparent;
+    color: transparent;
+    visibility: hidden;
+}
+.caps {
+    width: 80px;
+}
+.enter {
+    width: 114px;
+}
+.shift {
+    width: 126px;
+}
+.left-shift {
+    width: 122px;
+}
+.tall-enter {
+    height: 102px;
+}
+.relative-two {
+    position: relative;
+    top: -109px;
+}
+.ctrl {
+    width: 70px;
+}
+.alt,
+.windows,
+.notes {
+    width: 55px;
+}
+.spaceBar {
+    width: 390px;
+}
+.zero {
+    width: 100px;
+}
+.left-click {
+    position: relative;
+    left: 35%;
+    width: 100px;
+    border-radius: 0 0 0 10px;
+}
+.middle-click {
+    position: relative;
+    left: 35%;
+    width: 20px;
+}
+.right-click {
+    position: relative;
+    left: 35%;
+    width: 100px;
+    border-radius: 0 0 10px 0;
+}
+.arrows {
+    position: relative;
+    top: -109px;
+    left: 511px;
+}
+
+.active {
+    background-color: rgb(103, 199, 59);
+}

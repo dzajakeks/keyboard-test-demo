@@ -1,0 +1,12 @@
+.output-display {
+    display: flex;
+    color: white;
+    background-color: rgb(64, 115, 117);
+    padding: .3em 0;
+    overflow-x: hidden;
+}
+.output-display span {
+    margin-left: .5em;
+    border: 2px solid rgb(39, 68, 73);
+    padding: .1em .2em;
+}

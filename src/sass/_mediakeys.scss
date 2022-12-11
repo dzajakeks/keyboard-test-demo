@@ -1,0 +1,20 @@
+.media-keys__container {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.media-keys-key {
+    border: 1px solid rgb(0, 0, 0);
+    padding: .2em .5em;
+    border-radius: 5px;
+    display: inline-block;
+    margin: .5em;
+}
+.icon-margin-right {
+    margin-right: 2em;
+}
+img {
+    width: 16px;
+    color: white;
+    fill: white;
+}

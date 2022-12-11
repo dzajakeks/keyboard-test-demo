@@ -1,0 +1,17 @@
+.system__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .system-icon {
+        padding: .2rem 2rem;
+        background-color: rgb(165, 165, 165);
+        margin: 0 .1em;
+        
+        .windows-icon,
+        .apple-icon {
+            font-size: 2rem;
+            color: black;
+        }
+    }
+}
